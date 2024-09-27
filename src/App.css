@@ -28,6 +28,7 @@
 }
 .header p:hover{
     background-color: aqua;
+    cursor: pointer;
 }
 
 .homepage{
@@ -166,3 +167,4 @@
     
 
 }
+
