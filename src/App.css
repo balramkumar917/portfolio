@@ -1,0 +1,168 @@
+:root{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem;
+    /* width: fit-content; */
+}
+.header{
+    display: flex;
+    /* float: right; */
+    justify-content: end;
+    
+   
+}
+.header p{
+    border: 1px solid white;
+    font-size: 15px;
+    /* margin: 5px; */
+    
+    padding: 6px;
+    padding-inline: 10px;
+    border: none;
+    
+}a{
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+}
+.header p:hover{
+    background-color: aqua;
+}
+
+.homepage{
+    justify-content: center;
+    text-align: center;
+    border: 1px solid white;
+    padding: auto;
+    font-size: 15px;
+    display: block;
+    /* border: none; */
+    margin-top: 3rem;
+    
+   
+    
+}
+.profile{
+    position: relative;
+    /* right: auto; */
+   
+    height: 200px;
+    /* float: right;
+    position: relative;
+    top: auto; */
+    border: 1px solid white;
+   /* position: relative; */
+   border-radius: 100%;
+    /* border: none; */
+    
+    
+}
+.profile-container{
+    border: 1px solid white;
+  
+    /* position: relative; */
+    /* float: right; */
+}
+.heading{
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    border: 1px dotted white;
+}
+.homepage p{
+    font-size: 14px;
+    font-weight: 14;
+    padding: 10px;
+}
+
+/* SKILLS */
+.skill-heading{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(27, 17, 17);
+    margin-top: 3rem;
+}
+
+.skillset{
+    display: block;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+
+    
+
+}
+.skillset img{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 1rem;
+
+}
+.skillset img:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+
+
+/* projects */
+
+.project-heading{
+    text-align: center;
+    background-color: rgb(27, 17, 17);
+    font-size: 30px;
+    margin-top:3rem ;
+}
+.project{
+    text-align: center;
+    border: 1px solid white;
+    /* margin: 20px; */
+    /* width: fit-content; */
+    padding-inline:10px ;
+    
+}
+.project p{
+    text-align: left;
+    font-size: 14px;
+}
+.project h3{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.section{
+    /* justify-content: center; */
+    
+    display: grid;
+}
+
+/* EDUCATION */
+
+.education-heading{
+    background-color: rgb(27, 17, 17);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3rem;
+
+}
+.course{
+    border: 1px solid white;
+    text-align: center;
+    /* padding: 10px; */
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.college{
+    font-style: italic;
+    font-size: 14px;
+    
+
+}
