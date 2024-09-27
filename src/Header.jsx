@@ -4,10 +4,10 @@ import { Education } from './Education'
 export const Header = ( props) => {
   return (
     <div className='header'>
-        <p onClick={""}>HOME</p>
-        <p onClick={""}>SKILLS</p>
-        <p onClick={""}>PROJECTS</p>
-        <p onClick={""}>EDUCATION</p>
+        <a href="">HOME</a>
+        <a href="">SKILLS</a>
+       <a href=""> PROJECTS</a>
+        <a href="">EDUCATION</a>
     </div>
   )
 }

@@ -12,23 +12,22 @@
     
    
 }
-.header p{
-    border: 1px solid white;
+.header a{
     font-size: 15px;
-    /* margin: 5px; */
-    
+    background-color: black;
+    color: white;
+    height: min-content;
     padding: 6px;
     padding-inline: 10px;
-    border: none;
     
 }a{
     color: white;
     text-decoration: none;
     margin: 0px;
 }
-.header p:hover{
+.header a:hover{
     background-color: aqua;
-    cursor: pointer;
+   
 }
 
 .homepage{
@@ -38,7 +37,6 @@
     padding: auto;
     font-size: 15px;
     display: block;
-    /* border: none; */
     margin-top: 3rem;
     
    
@@ -46,24 +44,17 @@
 }
 .profile{
     position: relative;
-    /* right: auto; */
-   
+    
     height: 200px;
-    /* float: right;
-    position: relative;
-    top: auto; */
     border: 1px solid white;
-   /* position: relative; */
    border-radius: 100%;
-    /* border: none; */
     
     
 }
 .profile-container{
     border: 1px solid white;
   
-    /* position: relative; */
-    /* float: right; */
+
 }
 .heading{
     font-size: 18px;
@@ -87,8 +78,6 @@
 
 .skillset{
     display: block;
-    /* justify-content: center; */
-    /* align-items: center; */
     text-align: center;
 
     
@@ -122,8 +111,6 @@
 .project{
     text-align: center;
     border: 1px solid white;
-    /* margin: 20px; */
-    /* width: fit-content; */
     padding-inline:10px ;
     
 }
@@ -138,7 +125,6 @@
     font-size: 15px;
 }
 .section{
-    /* justify-content: center; */
     
     display: grid;
 }
@@ -155,7 +141,6 @@
 .course{
     border: 1px solid white;
     text-align: center;
-    /* padding: 10px; */
     font-size: 16px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -167,4 +152,5 @@
     
 
 }
+
 

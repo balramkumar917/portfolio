@@ -17,11 +17,11 @@ export const Skills = () => {
         <img src={springboot} alt="springboot" />
         <img src={react} alt="react" />
         <img src={javascript} alt="javascript" />
-        <div className='skillset'>
+        {/* <div className='skillset'> */}
           <img src={html} alt="html" />
           <img src={css} alt="css" />
           <img src={mongodb} alt="mongodb" />
-        </div>
+        {/* </div> */}
       
 
       </div>
