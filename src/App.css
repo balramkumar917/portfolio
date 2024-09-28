@@ -27,17 +27,14 @@
     padding: 6px;
     padding-inline: 10px;
     border: none;
-    
+    border-right: 1px solid white;
+    /* text-decoration: underline; */
+   
     /* border-left:1px solid white ; */
     
     
 }
-.header button{
-    color: white;
-    text-decoration: none;
-    margin: 0px;
-    border-right: 1px solid white;
-}
+
 .header a:hover,.header button:hover{
     background-color: aqua;
     cursor: pointer;
