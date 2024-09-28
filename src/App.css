@@ -16,11 +16,13 @@
     display: flex;
     /* float: right; */
     justify-content: end;
+    margin-top: 20px;
     
    
 }
 .header button{
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: bold;
     background-color: black;
     color: white;
     height: min-content;
@@ -48,7 +50,7 @@
     padding: auto;
     font-size: 15px;
     display: block;
-    margin-top: 3rem;
+    margin-top: 2rem;
     
    
     
