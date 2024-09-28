@@ -189,4 +189,23 @@
 
 }
 
-
+/* RESUME */
+#resume{
+    text-align: center;
+    padding:20px;
+}
+#resume a{
+    color: black;
+    background-color: white;
+    /* border: 1px solid white; */
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    /* border-radius: 10px; */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#resume a:hover{
+    background-color: aqua;
+}

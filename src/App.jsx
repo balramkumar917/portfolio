@@ -5,6 +5,7 @@ import { Homepage } from './Homepage'
 import { Skills } from './Skills'
 import { Project } from './Project'
 import { Education } from './Education'
+import { Resume } from './Resume'
 
 export const App = () => {
   return (
@@ -14,6 +15,7 @@ export const App = () => {
     <Skills/>
     <Project/>
     <Education/>
+    <Resume/>
     </>
   )
 }
