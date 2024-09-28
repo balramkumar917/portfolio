@@ -4,7 +4,7 @@ import img from "./assets/profile.png";
 
 export const Homepage = () => {
   return (
-    <>
+    <section id='home'>
     <div className='homepage'>
         <h1>
           Balram <br/> Kannaujiya
@@ -20,6 +20,6 @@ export const Homepage = () => {
       <h1>Full Stack <br/>Developer</h1>
     </div>
 
-    </>
+    </section>
   )
 }

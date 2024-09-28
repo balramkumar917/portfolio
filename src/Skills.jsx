@@ -9,7 +9,7 @@ import mongodb from './assets/mongodb.png';
 
 export const Skills = () => {
   return (
-    <div>
+    <section id='skills'>
       <h1 className='skill-heading'>SKILLS</h1>
       <div className='skillset'>
 
@@ -26,6 +26,6 @@ export const Skills = () => {
 
       </div>
 
-    </div>
+    </section>
   )
 }

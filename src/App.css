@@ -12,21 +12,28 @@
     
    
 }
-.header a{
-    font-size: 15px;
+.header button{
+    font-size: 13px;
     background-color: black;
     color: white;
     height: min-content;
     padding: 6px;
     padding-inline: 10px;
+    border: none;
     
-}a{
+    /* border-left:1px solid white ; */
+    
+    
+}
+.header button{
     color: white;
     text-decoration: none;
     margin: 0px;
+    border-right: 1px solid white;
 }
-.header a:hover{
+.header a:hover,.header button:hover{
     background-color: aqua;
+    cursor: pointer;
    
 }
 
@@ -112,6 +119,11 @@
     text-align: center;
     border: 1px solid white;
     padding-inline:10px ;
+    margin-top: 10px;
+    position:static;
+    height: auto;
+    margin-bottom: 20px;
+    
     
 }
 .project p{
@@ -124,10 +136,27 @@
     border-radius: 20px;
     font-size: 15px;
 }
-.section{
+.project-link{
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.project-link a{
+    border: 1px solid white;
+    padding: 3px;
+    font-style: italic;
+    background-color: white;
+    color: black;
+    
+        
+}
+.project-link a:hover{
+    background-color: aqua;
+}
+/* .section{
     
     display: grid;
-}
+} */
 
 /* EDUCATION */
 
