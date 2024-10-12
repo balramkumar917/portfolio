@@ -16,7 +16,7 @@ export const Project = () => {
       <b>Technologies Used</b> : <br />React, Javascript, HTML, CSS, VS Code, Node js, axios
     </p>
     <div className='project-link'>
-      <a href="https://github.com/balramkumar917/portfolio">Github Repo</a>
+      <a href="https://github.com/balramkumar917/crud_operations_react_frontend">Github Repo</a>
     </div>
   
 </div>
@@ -25,11 +25,12 @@ export const Project = () => {
   
       <h3>CRUD Operations Backend</h3>
         <p>
-        <b>Technologies Used</b> : <br /> JavaScript, HTML, CSS<br/>
+        <b>Technologies Used</b> : <br /> Java, SpringBoot, JPA,
+        MySql, SQL, IntelliJ IDEA
             
         </p>
         <div className='project-link'>
-          <a href="https://github.com/balramkumar917/portfolio">Github Repo</a>
+          <a href="https://github.com/balramkumar917/crud_operations_springboot_backend">Github Repo</a>
         </div>
       
     </div>
