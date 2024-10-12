@@ -1,15 +1,17 @@
 :root{
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 145, 145);
+    color: rgb(38, 38, 38);
     font-family: Arial, Helvetica, sans-serif;
     /* margin: 2rem; */
     /* width: fit-content; */
-    max-width: 700px;
     margin: auto;
     justify-content: center;
+    margin: 10px;
     
+    @media (max-width: 600px) {
+        margin: none;
+    }
    
-    
     
 }
 .header{
@@ -40,27 +42,56 @@
 .header a:hover,.header button:hover{
     background-color: aqua;
     cursor: pointer;
+    color: black;
    
 }
 
 .homepage{
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding: auto;
-    font-size: 15px;
+    font-size: 20px;
     display: block;
     margin-top: 2rem;
+    display: flex;
+    margin-inline: 3rem;
+
+
+    @media (max-width:600px) {
+        display: block;
+        
+    }
     
-   
     
+}
+p{
+    
+}
+
+.homepage p{
+    margin-inline: 3rem;
+
+    @media (max-width:600px) {
+        margin-inline: 10px;
+        
+    }
 }
 .profile{
     position: relative;
     
+    height: 250px;
+    /* border: 1px solid white; */
+   border-radius: 20%;
+   background-color: black;
+   box-shadow: 5px 5px 10px  white;
+   margin-bottom: 2rem;
+
+   @media (max-width:600px) {
     height: 200px;
-    border: 1px solid white;
-   border-radius: 100%;
+    border-radius: 30%;
+    
+   }
     
     
 }
@@ -73,7 +104,15 @@
     font-size: 18px;
     justify-content: center;
     text-align: center;
-    border: 1px dotted white;
+    /* border: 1px dotted white; */
+    box-shadow: 2px 2px 10px white;
+    display: flex;
+
+
+    @media (max-width:600px) {
+        display: grid;
+        line-height: 0;
+    }
 }
 .homepage p{
     font-size: 14px;
@@ -85,25 +124,33 @@
 .skill-heading{
     text-align: center;
     font-size: 30px;
-    background-color: rgb(27, 17, 17);
+    background-color: rgb(255, 255, 255);
     margin-top: 3rem;
 }
 
 .skillset{
     display: block;
     text-align: center;
+    
 
     
 
 }
 .skillset img{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     padding: 10px;
     align-items: center;
-    border: 1px solid white;
+    border: 1px solid aqua;
     border-radius: 50%;
     margin: 1rem;
+    background-color: rgb(0, 0, 0);
+
+    @media (max-width:600px) {
+        height: 30px;
+        width: 30px;
+    }
+    
 
 }
 .skillset img:hover{
@@ -117,30 +164,52 @@
 
 .project-heading{
     text-align: center;
-    background-color: rgb(27, 17, 17);
+    background-color: rgb(255, 255, 255);
     font-size: 30px;
     margin-top:3rem ;
 }
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .project{
     text-align: center;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding-inline:10px ;
     margin-top: 10px;
     position:static;
-    height: auto;
+    height: 200px;
     margin-bottom: 20px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(0, 156, 217);
+    box-shadow: 3px 3px 8px 0px rgb(255, 255, 255);
+
+    @media (max-width:600px) {
+        width: 150px;
+        /* height: 200px; */
+        min-height: 220px;
+        font-size: small;
+        
+    }
     
     
 }
 .project p{
     text-align: left;
     font-size: 14px;
+    color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+    line-height: 1.5;
 }
 .project h3{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding: 10px;
     border-radius: 20px;
     font-size: 15px;
+    background-color: white;
+    color: black;
 }
 .project-link{
     padding-bottom: 10px;
@@ -151,8 +220,8 @@
     border: 1px solid white;
     padding: 3px;
     font-style: italic;
-    background-color: white;
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     
         
 }
@@ -167,13 +236,42 @@
 /* EDUCATION */
 
 .education-heading{
-    background-color: rgb(27, 17, 17);
+    background-color: rgb(255, 255, 255);
     text-align: center;
     font-size: 30px;
     margin-top: 3rem;
 
 }
-.course{
+
+.education-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.education-card{
+    text-align: center;
+   
+    padding-inline:10px ;
+    margin-top: 10px;
+    position:static;
+    height: 100px;
+    margin-bottom: 20px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 0);
+    box-shadow: 3px 3px 8px 0px rgb(255, 255, 255);
+
+    @media (max-width:600px) {
+        width: 100%;
+        height: auto;
+        
+    }
+    
+}
+
+/* .course{
     border: 1px solid white;
     text-align: center;
     font-size: 16px;
@@ -187,7 +285,7 @@
     font-size: 14px;
     
 
-}
+} */
 
 /* RESUME */
  #resume{

@@ -7,7 +7,7 @@ export const Homepage = () => {
     <section id='home'>
     <div className='homepage'>
         <h1>
-          Balram <br/> Kannaujiya
+          Balram  Kannaujiya
         <p> Highly-motivated employee with desire to take on new challenges.
           Strong work ethic, adaptability, and exceptional interpersonal skills.
           Adept at working effectively unsupervised and quickly mastering</p>
@@ -17,7 +17,8 @@ export const Homepage = () => {
         
     </div>
     <div className='heading'>
-      <h1>Full Stack <br/>Developer</h1>
+      <h1>FULL STACK </h1>
+      <h1>&nbsp;DEVELOPER</h1>
     </div>
 
     </section>
